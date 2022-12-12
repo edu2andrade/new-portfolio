@@ -22,7 +22,7 @@
 
 .gradient-01 {
   --size: 500px;
-  --speed: 50s;
+  --speed: 30s;
   --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
 
   width: var(--size);
