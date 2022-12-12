@@ -4,7 +4,7 @@ export const styles = {
   innerWidth: '2xl:max-w-[1280] w-full',
   interWidth: 'lg:w-[80%] w-[100%]',
 
-  headings: 'font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
+  headings: 'font-bold text-4xl tracking-tighter leading-none text-white',
 
   paddings: 'sm:p-10 p-8',
   yPaddings: 'sm:py-12 py-8',

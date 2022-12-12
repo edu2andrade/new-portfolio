@@ -9,7 +9,8 @@ import { FaArrowCircleDown } from 'react-icons/fa'
 export const HeroSection = () => {
   return (
     <section className="h-screen">
-      <main className={`${styles.flexAround} ${styles.xPaddings} py-10 text-gray-300 z-10`}>
+      <div className='absolute top-28 right-32 gradient-01 overflow-hidden' />
+      <main className={`${styles.flexAround} ${styles.xPaddings} pt-24 pb-16 text-white z-10`}>
         <div className="z-10">
           <h1 className='font-extrabold text-8xl tracking-tighter leading-none'>
             I am

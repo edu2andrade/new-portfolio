@@ -7,7 +7,6 @@ import { FaWhatsapp } from 'react-icons/fa'
 export const NavBar = () => {
   return (
     <nav className={`${styles.xPaddings} pt-4`}>
-      <div className='absolute top-20 right-28 gradient-01 overflow-hidden' />
       <div className={`${styles.flexBetween} pb-4 border-b border-gray-700 text-gray-300 z-10`}>
         <div className={`flex gap-2`}>
           <NextLink href='/'>
