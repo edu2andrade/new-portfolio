@@ -21,7 +21,7 @@ export const NavBar = () => {
           </NextLink>
           <NextLink href='/'>
             <div className='px-4 py-2 hover:bg-gray-800 active:ring-1 ring-gray-700 rounded-md'>
-              <span>What I do?</span>
+              <span>Services</span>
             </div>
           </NextLink>
         </div>

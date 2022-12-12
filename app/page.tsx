@@ -2,7 +2,7 @@ import { Footer } from "../components/Footer";
 import { NavBar } from "../components/NavBar";
 import { HeroSection } from "../sections/HeroSection";
 import { AboutMeSection } from "../sections/AboutMeSection";
-import { WhatIDoSection } from "../sections/WhatIDo";
+import { ServicesSection } from "../sections/Services";
 import { ContactMeSection } from "../sections/ContactMeSection";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
       <NavBar />
       <HeroSection />
       <AboutMeSection />
-      <WhatIDoSection />
+      <ServicesSection />
       <ContactMeSection />
       <Footer />
     </div>
