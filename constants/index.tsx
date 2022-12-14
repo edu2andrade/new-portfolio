@@ -3,6 +3,7 @@
 import { FaReact } from 'react-icons/fa'
 import {
   SiReact,
+  SiCss3,
   SiNextdotjs,
   SiTailwindcss,
   SiHtml5,
@@ -19,6 +20,10 @@ export const skills = [
   {
     skillName: 'HTML',
     icon: <SiHtml5 size={48}/>,
+  },
+  {
+    skillName: 'CSS',
+    icon: <SiCss3 size={48}/>,
   },
   {
     skillName: 'SASS',
