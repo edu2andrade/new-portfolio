@@ -1,7 +1,6 @@
 'use-client'
 
 import { ReactNode } from "react"
-import { styles } from '../styles'
 
 interface SkilssItemProps {
   skillName: string

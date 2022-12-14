@@ -18,6 +18,7 @@ export const styles = {
   flexEnd: 'flex justify-end items-center',
   flexBetween: 'flex justify-between items-center',
   flexAround: 'flex justify-around items-center',
+  flexEvenly: 'flex justify-evenly items-center',
 
   // HeroSection
   // Headings
