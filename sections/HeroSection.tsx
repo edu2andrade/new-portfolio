@@ -13,10 +13,10 @@ export const HeroSection = () => {
       <div className='absolute top-40 right-44 gradient-01 overflow-hidden' />
       <main className={`${styles.flexAround} ${styles.xPaddings} pt-24 pb-16 text-white z-10`}>
         <div className="z-10">
-          <h1 className='font-extrabold text-8xl tracking-tighter leading-none'>
+          <h1 className='font-extrabold text-8xl -ml-1 tracking-tighter leading-none'>
             I am
           </h1>
-          <span className='font-extrabold text-[200px] tracking-tighter leading-none bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-300'>
+          <span className='font-extrabold text-[200px] -ml-3 tracking-tighter leading-none bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-300'>
             Edu.
           </span>
           <h2 className='font-bold text-4xl tracking-tighter leading-none'>

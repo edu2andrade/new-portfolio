@@ -66,3 +66,30 @@ export const skills = [
     icon: <SiFigma size={48}/>,
   },
 ]
+
+export const projects = [
+  {
+    name: 'Personal Portfolio',
+    imgUrl: '/portfolio.png',
+    repositoryLink: 'https://github.com/edu2andrade/new-portfolio',
+    // liveLink: '',
+  },
+  {
+    name: 'Ignite Gym',
+    imgUrl: '/ignite-gym.png',
+    repositoryLink: 'https://github.com/edu2andrade/ignitegym',
+    // liveLink: '',
+  },
+  {
+    name: 'BG Team',
+    imgUrl: '/bg-team.png',
+    repositoryLink: 'https://www.galvaocoach.com/',
+    // liveLink: '',
+  },
+  {
+    name: 'Coffe Delivery',
+    imgUrl: '/coffee-delivery.png',
+    repositoryLink: 'https://github.com/edu2andrade/coffee-delivery',
+    // liveLink: '',
+  },
+]
