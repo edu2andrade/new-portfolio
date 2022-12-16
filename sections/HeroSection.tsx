@@ -1,15 +1,17 @@
 'use-client'
 
 import Image from "next/image"
+import NextLink from 'next/link'
 import profilePic from '../public/profile_pic.webp'
 
 import { styles } from '../styles'
 import { FaArrowCircleDown } from 'react-icons/fa'
 import { BiMailSend } from 'react-icons/bi'
+import { contacts } from "../constants"
 
 export const HeroSection = () => {
   return (
-    <section className=" mb-24">
+    <section id='home' className=" mb-24">
       <div className='absolute top-40 right-44 gradient-01 overflow-hidden' />
       <main className={`${styles.flexAround} ${styles.xPaddings} pt-24 pb-16 text-white z-10`}>
         <div className="z-10">
@@ -22,12 +24,13 @@ export const HeroSection = () => {
           <h2 className='font-bold text-4xl tracking-tighter leading-none'>
             Web Developer
           </h2>
-          <button
-             className='py-2 px-4 flex items-center gap-2 mt-8 bg-blue-500 shadow-lg shadow-blue-500/50 hover:bg-blue-600 transition-colors rounded-md'
+          <NextLink 
+            href={contacts[2].link}
+            className='py-2 px-4 w-40 flex items-center justify-center gap-2 mt-8 bg-gray-800 hover:ring-1 ring-cyan-500 transition-colors rounded-md'
           >
-            <BiMailSend size={20}  />
+            {contacts[2].icon}
             Contact Me
-          </button>
+          </NextLink>
         </div>
         <div className='w-96 h-96 relative'>
           <Image

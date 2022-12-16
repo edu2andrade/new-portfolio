@@ -1,6 +1,7 @@
 'use-client'
 
-import { FaReact } from 'react-icons/fa'
+import { BiMailSend } from 'react-icons/bi'
+import { FaReact, FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 import {
   SiReact,
   SiCss3,
@@ -15,55 +16,60 @@ import {
   SiJavascript
 } from 'react-icons/si'
 
+const iconSizes = {
+  small: 18,
+  medium: 24,
+  large: 48,
+}
 
 export const skills = [
   {
     skillName: 'HTML',
-    icon: <SiHtml5 size={48}/>,
+    icon: <SiHtml5 size={iconSizes.large}/>,
   },
   {
     skillName: 'CSS',
-    icon: <SiCss3 size={48}/>,
+    icon: <SiCss3 size={iconSizes.large}/>,
   },
   {
     skillName: 'SASS',
-    icon: <SiSass size={48}/>,
+    icon: <SiSass size={iconSizes.large}/>,
   },
   {
     skillName: 'Javascript',
-    icon: <SiJavascript size={48}/>,
+    icon: <SiJavascript size={iconSizes.large}/>,
   },
   {
     skillName: 'Typescript',
-    icon: <SiTypescript size={48}/>,
+    icon: <SiTypescript size={iconSizes.large}/>,
   },
   {
     skillName: 'TailwindCSS',
-    icon: <SiTailwindcss size={48}/>,
+    icon: <SiTailwindcss size={iconSizes.large}/>,
   },
   {
     skillName: 'Styled Components',
-    icon: <SiStyledcomponents size={48}/>,
+    icon: <SiStyledcomponents size={iconSizes.large}/>,
   },
   {
     skillName: 'React',
-    icon: <FaReact size={48}/>,
+    icon: <FaReact size={iconSizes.large}/>,
   },
   {
     skillName: 'React Native',
-    icon: <SiReact size={48}/>,
+    icon: <SiReact size={iconSizes.large}/>,
   },
   {
     skillName: 'Next JS',
-    icon: <SiNextdotjs size={48}/>,
+    icon: <SiNextdotjs size={iconSizes.large}/>,
   },
   {
     skillName: 'Node',
-    icon: <SiNodedotjs size={48}/>,
+    icon: <SiNodedotjs size={iconSizes.large}/>,
   },
   {
     skillName: 'Figma',
-    icon: <SiFigma size={48}/>,
+    icon: <SiFigma size={iconSizes.large}/>,
   },
 ]
 
@@ -91,5 +97,28 @@ export const projects = [
     imgUrl: '/coffee-delivery.png',
     repositoryLink: 'https://github.com/edu2andrade/coffee-delivery',
     // liveLink: '',
+  },
+]
+
+export const contacts = [
+  {
+    type: 'LinkedIn',
+    icon: <FaLinkedinIn size={iconSizes.small}/>,
+    link: 'https://www.linkedin.com/in/edu2andrade/',
+  },
+  {
+    type: 'Github',
+    icon: <FaGithub size={iconSizes.small}/>,
+    link: 'https://github.com/edu2andrade',
+  },
+  {
+    type: 'E-mail',
+    icon: <BiMailSend size={iconSizes.small}/>,
+    link: 'mailto:edu2andrade@gmail.com',
+  },
+  {
+    type: 'WhatsApp',
+    icon: <FaWhatsapp size={iconSizes.small}/>,
+    link: 'https://api.whatsapp.com/send?phone=34623132965&text=How%20can%20I%20help%20you?',
   },
 ]

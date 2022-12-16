@@ -8,7 +8,7 @@ import { MdDevices } from 'react-icons/md'
 
 export const ServicesSection = () => {
   return (
-    <section>
+    <section id='services'>
       <main className={`${styles.flexCenter} ${styles.xPaddings} mt-24 flex-col z-10`}>
         <h1 className={`${styles.headings} mb-16`}>Services & Solutions</h1>
         <div className='flex flex-wrap gap-8'>

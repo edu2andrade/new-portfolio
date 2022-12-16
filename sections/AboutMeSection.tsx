@@ -15,7 +15,7 @@ import { SkilssItem } from '../components/SkillsItem'
 
 export const AboutMeSection = () => {
   return (
-    <section>
+    <section id="aboutMe">
       <main className={`${styles.flexCenter} ${styles.xPaddings} flex-col z-10`}>
         <article className={`max-w-md text-center`}>
           <h1 className={`${styles.headings} mb-12`}>Hi there!</h1>

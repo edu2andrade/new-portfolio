@@ -5,7 +5,6 @@ import { NavBar } from "../components/NavBar";
 import { HeroSection } from "../sections/HeroSection";
 import { AboutMeSection } from "../sections/AboutMeSection";
 import { ServicesSection } from "../sections/Services";
-import { ContactMeSection } from "../sections/ContactMeSection";
 import { ProjectsSection } from "../sections/ProjectsSection";
 
 export default function Home() {
@@ -16,7 +15,6 @@ export default function Home() {
       <AboutMeSection />
       <ServicesSection />
       <ProjectsSection />
-      <ContactMeSection />
       <Footer />
     </div>
   )
