@@ -13,7 +13,7 @@ export const Footer = () => {
         <h3 className='text-xl font-semibold text-white'>
           Contacts
         </h3>
-        <div className='flex gap-6'>
+        <div className='flex flex-col sm:flex-row gap-4 mt-8'>
           {
             contacts.map(contact => (
               <NextLink
@@ -29,7 +29,7 @@ export const Footer = () => {
             ))
           }
         </div>
-        <span className='text-gray-500 text-sm'>
+        <span className='text-gray-500 text-sm mt-8'>
           Copyright © 2023 - Eduardo Andrade
         </span>
       </main>

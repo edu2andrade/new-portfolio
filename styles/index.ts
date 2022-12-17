@@ -1,6 +1,5 @@
 export const styles = {
-
-  // Need to review this
+  
   innerWidth: '2xl:max-w-[1280] w-full',
   interWidth: 'lg:w-[80%] w-[100%]',
 

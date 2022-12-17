@@ -18,8 +18,8 @@ export const ProjectCard = ({ name, imgUrl, repositoryLink, active, handleClick 
     <article className={`relative ${
       active === name 
       ? 'flex-initial w-72'
-      : 'flex-none w-44'
-    } flex items-center justify-center min-w-44 h-[600px] min-h-[100px] transition-all duration-[0.7s] ease-out-flex cursor-pointer`}
+      : 'flex-none w-52 md:w-36'
+    } flex items-center justify-center min-w-36 h-52 md:h-[600px] min-h-[100px] transition-all duration-[0.7s] ease-out-flex cursor-pointer`}
       onClick={() => handleClick(name)}
     >
       <img
@@ -30,12 +30,24 @@ export const ProjectCard = ({ name, imgUrl, repositoryLink, active, handleClick 
       {
         active !== name 
         ? (
-          <h3 className='absolute font-semibold sm:text-[26px] text-[18px] text-white leading-none z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]'>
+          <h3 className='
+            absolute
+            font-semibold
+            sm:text-[26px]
+            text-[18px]
+            text-white
+            drop-shadow-xl
+            leading-none
+            z-0
+            md:bottom-20
+            md:rotate-[-90deg]
+            md:origin-[0,0]'
+          >
             {name}
           </h3>
           
         ) : (
-          <div className='absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]'>
+          <div className='absolute bottom-0 p-8 justify-start w-full h-52 flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px]'>
             <NextLink href={repositoryLink} target='_blank' className={`${styles.flexCenter} w-[60px] h-[60px] rounded-full glassmorphism mb-4 hover:opacity-75 transition-all`}>
               <FaGithub size={32} color='white' />
             </NextLink>
