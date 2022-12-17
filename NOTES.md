@@ -2,3 +2,4 @@
 
 - [x] Responsiviness
 - [ ] README file
+- [ ] Tests

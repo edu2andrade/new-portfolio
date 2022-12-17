@@ -22,7 +22,7 @@ export const BurguerMenu = () => {
 
       <div
         className={
-          `${isOpen ? 'opacity-100' : 'opacity-0'} transition-opacity
+          `${isOpen ? 'translate-x-0' : '-translate-x-80'} transition-transform
           absolute top-28 w-60 p-6 flex flex-col gap-4 glassmorphism rounded-lg z-20`
         }
       >
