@@ -7,8 +7,8 @@ export const styles = {
   headings: 'font-bold text-4xl tracking-tighter leading-none text-white',
 
   paddings: 'sm:p-10 p-8',
-  yPaddings: 'sm:py-12 py-8',
-  xPaddings: 'px-12 sm:px-24 lg:px-48 ',
+  yPaddings: 'py-8',
+  xPaddings: 'px-8 sm:px-16 lg:px-48 ',
   topPaddings: 'pt-6 sm:pt-8 lg:pt-10',
   bottomPaddings: 'sm:pb-16 xs:pb-8 pb-12',
   

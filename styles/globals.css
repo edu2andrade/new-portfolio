@@ -10,7 +10,7 @@
   scroll-behavior: smooth;
 }
 
-@keyframes rotate {
+@keyframes infiniteRotate {
   0% {
     transform: rotate(0deg);
   }
@@ -31,12 +31,20 @@
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   filter: blur(475px);
 
-  animation: rotate var(--speed) var(--easing) alternate infinite;
+  animation: infiniteRotate var(--speed) var(--easing) alternate infinite;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 
+.burguer-line-1 {
+  transform: rotate(45deg) translate(0px, 0px);
+}
+
+.burguer-line-2 {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+
 .glassmorphism {
-  background: rgba(0, 0, 0, 0.176);
+  background: rgba(0, 0, 0, 0.7);
   box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.086);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
