@@ -1,3 +1,4 @@
 ## To implement:
 
-- [ ] Responsiviness
+- [x] Responsiviness
+- [ ] README file
