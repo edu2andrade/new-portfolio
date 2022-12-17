@@ -20,8 +20,8 @@ export const AboutMeSection = () => {
         <article className={`max-w-md text-center`}>
           <h1 className={`${styles.headings} mb-12`}>Hi there!</h1>
           <p className='text-gray-300'>
-            My name is Eduardo Andrade and I&apos;m a Web Developer. I spent a lifetime connected to sports, from volleyball to Personal Training, which was the last profession before restart this adventure through new technologies. <br /> <br />
-            Currently I work as a Freelancer bringing projects to live with Figma, React, NextJS and Node for web, and React Native for mobile apps. I&apos;m always studying and specialising even more in these technologies to deliver the best results. <br />
+            My name is Eduardo Andrade and I&apos;m a Web Developer. I spent a lifetime connected to sports, from volleyball to Personal Training, which was my last profession before restarting this adventure through new technologies. <br /> <br />
+            Currently I work as a Freelancer bringing projects to live with Figma, React, NextJS and Node for the web, and React Native for mobile apps. I&apos;m always studying and specialising in these technologies to deliver the best results. <br />
           </p>
         </article>
 
