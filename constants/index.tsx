@@ -75,6 +75,12 @@ export const skills = [
 
 export const projects = [
   {
+    name: 'BG Team',
+    imgUrl: '/bg-team.png',
+    repositoryLink: 'https://www.galvaocoach.com/',
+    // liveLink: '',
+  },
+  {
     name: 'Personal Portfolio',
     imgUrl: '/portfolio.png',
     repositoryLink: 'https://github.com/edu2andrade/new-portfolio',
@@ -84,12 +90,6 @@ export const projects = [
     name: 'Ignite Gym',
     imgUrl: '/ignite-gym.png',
     repositoryLink: 'https://github.com/edu2andrade/ignitegym',
-    // liveLink: '',
-  },
-  {
-    name: 'BG Team',
-    imgUrl: '/bg-team.png',
-    repositoryLink: 'https://www.galvaocoach.com/',
     // liveLink: '',
   },
   {

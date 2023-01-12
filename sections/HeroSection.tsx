@@ -22,7 +22,7 @@ export const HeroSection = () => {
           <span className='font-extrabold text-9xl md:text-[200px] -ml-3 tracking-tighter leading-none bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-cyan-300'>
             Edu.
           </span>
-          <h2 className='font-bold text-4xl md:text-4xl tracking-tighter leading-none'>
+          <h2 className=' text-center font-bold text-4xl md:text-4xl tracking-tighter leading-none'>
             Freelance Web Developer
           </h2>
           <NextLink 
