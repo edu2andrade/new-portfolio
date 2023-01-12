@@ -6,6 +6,10 @@ import { contacts } from '../constants';
 
 import { styles } from '../styles'
 
+const getYear = () => {
+  return new Date().getFullYear();
+};
+
 export const Footer = () => {
   return (
     <footer className={`${styles.xPaddings} mt-24`}>
@@ -19,7 +23,7 @@ export const Footer = () => {
               <NextLink
                 key={contact.type} 
                 href={contact.link}
-                className='flex gap-2 items-center cursor-pointer hover:text-cyan-500 transition-color'  
+                className='flex gap-2 items-center cursor-pointer hover:text-cyan-500 transition'  
               >
                 {contact.icon}
                 <span>
@@ -29,8 +33,8 @@ export const Footer = () => {
             ))
           }
         </div>
-        <span className='text-gray-500 text-sm mt-8'>
-          Copyright © 2023 - Eduardo Andrade
+        <span className='w-full text-center text-gray-500 text-sm mt-8'>
+          Copyright &copy; {getYear()} - Eduardo Andrade - Freelance Web Developer
         </span>
       </main>
     </footer>

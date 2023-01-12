@@ -12,8 +12,8 @@ import { contacts } from "../constants"
 export const HeroSection = () => {
   return (
     <section id='home' className=" mb-24">
-      <div className='absolute top-60 md:right-44 gradient-01 overflow-hidden max-[639px]:hidden' />
-      <div className='absolute top-60 inset-0 gradient-02 overflow-hidden sm:hidden' />
+      <div className='absolute top-[220px] md:right-48 gradient-01 overflow-hidden max-[639px]:hidden' />
+      <div className='absolute top-[510px] left-16 gradient-02 overflow-hidden sm:hidden' />
       <main className={`${styles.flexCenter} flex-col md:${styles.flexAround} md:flex-row ${styles.xPaddings} pt-8 md:pt-24 pb-16 text-white z-10`}>
         <div className="z-10 flex flex-col justify-center items-center md:items-start">
           <h1 className='font-extrabold text-6xl md:text-8xl -ml-1 tracking-tighter leading-none'>
@@ -23,7 +23,7 @@ export const HeroSection = () => {
             Edu.
           </span>
           <h2 className='font-bold text-4xl md:text-4xl tracking-tighter leading-none'>
-            Web Developer
+            Freelance Web Developer
           </h2>
           <NextLink 
             href={contacts[2].link}

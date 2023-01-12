@@ -23,18 +23,18 @@ const iconSizes = {
 }
 
 export const skills = [
-  {
-    skillName: 'HTML',
-    icon: <SiHtml5 size={iconSizes.large}/>,
-  },
-  {
-    skillName: 'CSS',
-    icon: <SiCss3 size={iconSizes.large}/>,
-  },
-  {
-    skillName: 'SASS',
-    icon: <SiSass size={iconSizes.large}/>,
-  },
+  // {
+  //   skillName: 'HTML',
+  //   icon: <SiHtml5 size={iconSizes.large}/>,
+  // },
+  // {
+  //   skillName: 'CSS',
+  //   icon: <SiCss3 size={iconSizes.large}/>,
+  // },
+  // {
+  //   skillName: 'SASS',
+  //   icon: <SiSass size={iconSizes.large}/>,
+  // },
   {
     skillName: 'Javascript',
     icon: <SiJavascript size={iconSizes.large}/>,
@@ -43,16 +43,16 @@ export const skills = [
     skillName: 'Typescript',
     icon: <SiTypescript size={iconSizes.large}/>,
   },
+  // {
+  //   skillName: 'TailwindCSS',
+  //   icon: <SiTailwindcss size={iconSizes.large}/>,
+  // },
+  // {
+  //   skillName: 'Styled Components',
+  //   icon: <SiStyledcomponents size={iconSizes.large}/>,
+  // },
   {
-    skillName: 'TailwindCSS',
-    icon: <SiTailwindcss size={iconSizes.large}/>,
-  },
-  {
-    skillName: 'Styled Components',
-    icon: <SiStyledcomponents size={iconSizes.large}/>,
-  },
-  {
-    skillName: 'React',
+    skillName: 'React JS',
     icon: <FaReact size={iconSizes.large}/>,
   },
   {
@@ -64,7 +64,7 @@ export const skills = [
     icon: <SiNextdotjs size={iconSizes.large}/>,
   },
   {
-    skillName: 'Node',
+    skillName: 'Node JS',
     icon: <SiNodedotjs size={iconSizes.large}/>,
   },
   {

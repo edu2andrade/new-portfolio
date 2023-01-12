@@ -20,32 +20,21 @@ export const AboutMeSection = () => {
         <article className={`max-w-md text-center`}>
           <h1 className={`${styles.headings} mb-12`}>Hi there!</h1>
           <p className='text-gray-300'>
-            My name is Eduardo Andrade and I&apos;m a Web Developer. I spent a lifetime connected to sports, from volleyball to Personal Training, which was my last profession before restarting this adventure through new technologies. <br /> <br />
-            Currently I work as a Freelancer bringing projects to live with Figma, React, NextJS and Node for the web, and React Native for mobile apps. I&apos;m always studying and specialising in these technologies to deliver the best results. <br />
+            My name is Eduardo Andrade and I&apos;m a Freelance Web Developer. I spent a lifetime connected to sports, from volleyball to Personal Training, which was my last profession before restarting this adventure through new technologies. <br /> <br />
+            Currently I work as a Freelancer bringing projects to life with Figma, React, NextJS and Node for the web, and React Native for mobile apps. I&apos;m always studying and specialising in these technologies to deliver the best results. <br />
           </p>
         </article>
 
-        <div className='flex justify-center gap-8 max-w-xl text-center mt-12 text-gray-300'>
-          <Swiper
-            slidesPerView={5}
-            modules={[Autoplay]}
-            autoplay={{
-              delay: 1000,
-              disableOnInteraction: false,
-            }}
-            loop={true}
-          >
-            {
-              skills.map((skill) => (
-                <SwiperSlide key={skill.skillName}>
-                  <SkilssItem
-                    skillName={skill.skillName}
-                    icon={skill.icon}
-                  />
-                </SwiperSlide>
-              ))
-            }
-          </Swiper>
+        <div className='flex justify-center gap-8 flex-wrap max-w-2xl text-center mt-12 text-gray-300'>
+          {
+            skills.map((skill) => (
+              <SkilssItem
+                key={skill.skillName}
+                skillName={skill.skillName}
+                icon={skill.icon}
+              />
+            ))
+          }
         </div>
         
         <div className={`${styles.flexCenter} mt-16 animate-bounce text-gray-300`}>
@@ -56,12 +45,28 @@ export const AboutMeSection = () => {
   )
 }
 
-// {
-//   skills.map((skill) => (
-//     <SkilssItem
-//       key={skill.skillName}
-//       skillName={skill.skillName}
-//       icon={skill.icon}
-//     />
-//   ))
-// }
+
+
+{/* 
+Swiper has stopped working properly on 'app directories' mode...
+
+<Swiper
+slidesPerView={4}
+modules={[Autoplay]}
+autoplay={{
+  delay: 1000,
+  disableOnInteraction: false,
+}}
+loop={true}
+>
+{
+  skills.map((skill) => (
+    <SwiperSlide key={skill.skillName}>
+      <SkilssItem
+        skillName={skill.skillName}
+        icon={skill.icon}
+      />
+    </SwiperSlide>
+  ))
+}
+</Swiper> */}
