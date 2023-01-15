@@ -7,7 +7,7 @@ import { contacts, projects } from '../constants'
 import { styles } from '../styles'
 
 export const ProjectsSection = () => {
-  const [active, setActive] = useState('Personal Portfolio')
+  const [active, setActive] = useState('BG Team')
 
   return (
     <section id='projects'>
