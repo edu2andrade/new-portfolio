@@ -1,6 +1,6 @@
-'use-client'
+'use-client';
 
-import { ReactNode } from 'react'
+import { ReactNode } from 'react';
 
 interface SkilssItemProps {
   skillName: string
@@ -15,5 +15,5 @@ export const SkilssItem = ({icon, skillName}: SkilssItemProps) => {
       </div>
       <span className=" text-[10px] uppercase">{skillName}</span>
     </div>
-  )
-}
+  );
+};

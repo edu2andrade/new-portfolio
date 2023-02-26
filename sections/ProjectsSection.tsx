@@ -1,13 +1,13 @@
-'use-client'
+'use-client';
 
-import { useState } from 'react'
-import NextLink from 'next/link'
-import { ProjectCard } from '../components/ProjectCard'
-import { contacts, projects } from '../constants'
-import { styles } from '../styles'
+import { useState } from 'react';
+import NextLink from 'next/link';
+import { ProjectCard } from '../components/ProjectCard';
+import { contacts, projects } from '../constants';
+import { styles } from '../styles';
 
 export const ProjectsSection = () => {
-  const [active, setActive] = useState('BG Team')
+  const [active, setActive] = useState('BG Team');
 
   return (
     <section id='projects'>
@@ -46,5 +46,5 @@ export const ProjectsSection = () => {
         </NextLink>
       </main>
     </section>
-  )
-}
+  );
+};
