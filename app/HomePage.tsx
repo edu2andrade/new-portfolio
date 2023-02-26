@@ -1,11 +1,11 @@
-'use client'
+'use client';
 
-import { Footer } from "../components/Footer";
-import { NavBar } from "../components/NavBar";
-import { HeroSection } from "../sections/HeroSection";
-import { AboutMeSection } from "../sections/AboutMeSection";
-import { ServicesSection } from "../sections/Services";
-import { ProjectsSection } from "../sections/ProjectsSection";
+import { Footer } from '../components/Footer';
+import { NavBar } from '../components/NavBar';
+import { HeroSection } from '../sections/HeroSection';
+import { AboutMeSection } from '../sections/AboutMeSection';
+import { ServicesSection } from '../sections/Services';
+import { ProjectsSection } from '../sections/ProjectsSection';
 
 export function HomePage() {
   return (
@@ -21,5 +21,5 @@ export function HomePage() {
       <ProjectsSection />
       <Footer />
     </div>
-  )
+  );
 }

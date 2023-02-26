@@ -1,12 +1,13 @@
-'use-client'
+/* eslint-disable max-len */
+'use-client';
 
-import Image from "next/image"
-import NextLink from 'next/link'
-import profilePic from '../public/profile_pic.webp'
+import Image from 'next/image';
+import NextLink from 'next/link';
+import profilePic from '../public/edu_profile_2023.jpg';
 
-import { styles } from '../styles'
-import { FaArrowCircleDown } from 'react-icons/fa'
-import { contacts } from "../constants"
+import { styles } from '../styles';
+import { FaArrowCircleDown } from 'react-icons/fa';
+import { contacts } from '../constants';
 
 
 export const HeroSection = () => {
@@ -36,9 +37,12 @@ export const HeroSection = () => {
         <div className='w-52 h-52 md:w-96 mt-8 md:mt-0 md:h-96 relative'>
           <Image
             src={profilePic}
-            alt='Beautiful Smiling Face!'
+            alt='Edu face Smiling!'
             width={380}
             height={380}
+            style={{
+              borderRadius: '50%'
+            }}
             priority
           />
         </div>
@@ -47,5 +51,5 @@ export const HeroSection = () => {
         <FaArrowCircleDown size={24}/>
       </div>
     </section>
-  )
-}
+  );
+};

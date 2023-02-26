@@ -3,9 +3,9 @@
     "next/core-web-vitals"
   ],
   "rules": {
-    "semi": ["error", "never"],
+    "semi": ["error", "always"],
     "quotes": ["error", "single"],
-    "max-len": ["error", 80, { "ignoreUrls": true }],
+    // "max-len": ["error", 80, { "ignoreUrls": true }],
     "indent": ["error", 2],
     "arrow-parens": ["error", "always"],
     "arrow-spacing": "error"

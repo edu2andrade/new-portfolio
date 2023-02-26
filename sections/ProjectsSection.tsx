@@ -11,7 +11,12 @@ export const ProjectsSection = () => {
 
   return (
     <section id='projects'>
-      <main className={`${styles.flexCenter} ${styles.xPaddings} mt-24 flex-col z-10`}>
+      <main
+        className={`
+          ${styles.flexCenter} 
+          ${styles.xPaddings} 
+          mt-24 flex-col z-10
+        `}>
         <h1 className={`${styles.headings} mb-16`}>
           Projects
         </h1>
@@ -29,7 +34,12 @@ export const ProjectsSection = () => {
           See all projects here:
         </h3>
         <NextLink href={contacts[1].link} target='_blank'>
-          <div className='py-2 px-4 bg-gray-800 flex items-center justify-center gap-2 text-gray-300 hover:ring-1 ring-cyan-500 rounded-md transition-color'>
+          <div
+            className='
+              py-2 px-4 bg-gray-800 flex items-center justify-center gap-2 
+              text-gray-300 hover:ring-1 ring-cyan-500 
+              rounded-md transition-color
+            '>
             {contacts[1].icon}
             Repositories
           </div>

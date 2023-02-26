@@ -1,17 +1,11 @@
-'use-client'
+'use-client';
 
-// // Import Swiper React components
-// import { Swiper, SwiperSlide } from 'swiper/react'
-// // Import Swiper styles
-// import 'swiper/css'
-// import { Autoplay } from 'swiper'
+import { styles } from '../styles';
 
-import { styles } from '../styles'
+import { FaArrowCircleDown } from 'react-icons/fa';
 
-import { FaArrowCircleDown } from 'react-icons/fa'
-
-import { skills } from '../constants'
-import { SkilssItem } from '../components/SkillsItem'
+import { skills } from '../constants';
+import { SkilssItem } from '../components/SkillsItem';
 
 export const AboutMeSection = () => {
   return (
@@ -58,31 +52,5 @@ export const AboutMeSection = () => {
         </div>
       </main>
     </section>
-  )
-}
-
-
-
-{/* 
-Swiper has stopped working properly on 'app directories' mode...
-
-<Swiper
-slidesPerView={4}
-modules={[Autoplay]}
-autoplay={{
-  delay: 1000,
-  disableOnInteraction: false,
-}}
-loop={true}
->
-{
-  skills.map((skill) => (
-    <SwiperSlide key={skill.skillName}>
-      <SkilssItem
-        skillName={skill.skillName}
-        icon={skill.icon}
-      />
-    </SwiperSlide>
-  ))
-}
-</Swiper> */}
+  );
+};

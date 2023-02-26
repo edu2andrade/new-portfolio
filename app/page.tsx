@@ -6,5 +6,5 @@ export default function Page() {
     <div>
       <HomePage />
     </div>
-  )
+  );
 }

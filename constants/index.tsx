@@ -1,7 +1,7 @@
-'use-client'
+'use-client';
 
-import { BiMailSend } from 'react-icons/bi'
-import { FaReact, FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
+import { BiMailSend } from 'react-icons/bi';
+import { FaReact, FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import {
   SiReact,
   SiCss3,
@@ -14,13 +14,13 @@ import {
   SiFigma,
   SiTypescript,
   SiJavascript
-} from 'react-icons/si'
+} from 'react-icons/si';
 
 const iconSizes = {
   small: 18,
   medium: 24,
   large: 48,
-}
+};
 
 export const skills = [
   // {
@@ -71,7 +71,7 @@ export const skills = [
     skillName: 'Figma',
     icon: <SiFigma size={iconSizes.large}/>,
   },
-]
+];
 
 export const projects = [
   {
@@ -96,9 +96,9 @@ export const projects = [
     name: 'Coffe Delivery',
     imgUrl: '/coffee-delivery.png',
     repositoryLink: 'https://github.com/edu2andrade/coffee-delivery',
-    // liveLink: '',
+    liveLink: 'https://coffee-delivery-andradee.vercel.app/',
   },
-]
+];
 
 export const contacts = [
   {
@@ -116,9 +116,4 @@ export const contacts = [
     icon: <BiMailSend size={iconSizes.small}/>,
     link: 'mailto:edu2andrade@gmail.com',
   },
-  {
-    type: 'WhatsApp',
-    icon: <FaWhatsapp size={iconSizes.small}/>,
-    link: 'https://api.whatsapp.com/send?phone=34623132965&text=How%20can%20I%20help%20you?',
-  },
-]
+];
