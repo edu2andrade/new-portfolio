@@ -23,4 +23,4 @@ export const styles = {
   // Headings
   // Texts
   // ...
-}
+};

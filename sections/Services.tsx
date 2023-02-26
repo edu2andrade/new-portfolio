@@ -1,10 +1,10 @@
-'use-client'
+'use-client';
 
-import { styles } from '../styles'
+import { styles } from '../styles';
 
-import { SiFigma } from 'react-icons/si'
-import { IoLogoAppleAppstore } from 'react-icons/io5'
-import { MdDevices } from 'react-icons/md'
+import { SiFigma } from 'react-icons/si';
+import { IoLogoAppleAppstore } from 'react-icons/io5';
+import { MdDevices } from 'react-icons/md';
 
 export const ServicesSection = () => {
   return (
@@ -30,5 +30,5 @@ export const ServicesSection = () => {
         </div>
       </main>
     </section>
-  )
-}
+  );
+};
