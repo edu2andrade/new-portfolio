@@ -24,17 +24,24 @@ export const HeroSection = () => {
             Edu.
           </span>
           <h2 className=' text-center font-bold text-4xl md:text-4xl tracking-tighter leading-none'>
-            Freelance Web Developer
+            Web Developer
           </h2>
+          <p className='
+           mt-4
+           max-w-md
+           text-lg
+          '>
+            I’m a developer specializing in building (and occasionally designing!) exceptional web and mobile experiences.
+          </p>
           <NextLink 
             href={contacts[2].link}
             className='py-2 px-4 w-40 flex items-center justify-center gap-2 mt-8 bg-gray-800 hover:ring-1 ring-cyan-500 transition-colors rounded-md'
           >
             {contacts[2].icon}
-            Contact Me
+            Let&apos;s talk?
           </NextLink>
         </div>
-        <div className='w-52 h-52 md:w-96 mt-8 md:mt-0 md:h-96 relative'>
+        <div className='w-52 h-52 md:w-96 mt-8 md:mt-0 md:h-96 relative grayscale hover:grayscale-0 duration-300'>
           <Image
             src={profilePic}
             alt='Edu face Smiling!'

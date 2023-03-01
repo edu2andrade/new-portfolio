@@ -1,10 +1,12 @@
 'use-client';
 
+import NextLink from 'next/link';
+
 import { styles } from '../styles';
 
 import { FaArrowCircleDown } from 'react-icons/fa';
 
-import { skills } from '../constants';
+import { contacts, skills } from '../constants';
 import { SkilssItem } from '../components/SkillsItem';
 
 export const AboutMeSection = () => {
@@ -24,10 +26,26 @@ export const AboutMeSection = () => {
             this adventure through new technologies. <br /> <br />
             Currently I work as a Freelancer bringing projects to life with 
             Figma, React, NextJS and Node for the web, and React Native for 
-            mobile apps. I&apos;m always studying and specialising in these 
+            mobile apps. I&apos;m always studying and specializing in these 
             technologies to deliver the best results. <br />
           </p>
         </article>
+
+        <NextLink href='https://drive.google.com/file/d/1rJlHNhW1a5cXLks2KB4o8hYPA5Pn5Kj3/view?usp=share_link' target='_blank'>
+          <div className='
+            mt-12
+            py-2
+            px-3 
+            text-gray-300
+            hover:bg-gray-800 
+            ring-1 
+            ring-cyan-500 
+            rounded-md 
+            transition-all
+          '>
+            Resume
+          </div>
+        </NextLink>
 
         <div className='
           flex justify-center gap-8 flex-wrap 
