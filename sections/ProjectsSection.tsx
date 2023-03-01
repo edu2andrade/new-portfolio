@@ -1,13 +1,11 @@
 'use-client';
 
-import { useState } from 'react';
 import NextLink from 'next/link';
 import { ProjectCard } from '../components/ProjectCard';
 import { contacts, projects } from '../constants';
 import { styles } from '../styles';
 
 export const ProjectsSection = () => {
-  const [active, setActive] = useState('BG Team');
 
   return (
     <section id='projects'>
@@ -20,13 +18,11 @@ export const ProjectsSection = () => {
         <h1 className={`${styles.headings} mb-16`}>
           Projects
         </h1>
-        <div className={`${styles.flexCenter} md:flex-row flex-col gap-5`}>
+        <div className={`${styles.flexCenter} flex-col gap-5`}>
           {projects.map((project) => (
             <ProjectCard
               key={project.name}
               {...project}
-              active={active}
-              handleClick={setActive}
             />
           ))}
         </div>

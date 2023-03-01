@@ -6,7 +6,6 @@ import { contacts } from '../constants';
 
 import { styles } from '../styles';
 import { BurguerMenu } from './BurguerMenu';
-import { BiMailSend } from 'react-icons/bi';
 
 export const NavBar = () => {
   return (
@@ -77,16 +76,17 @@ export const NavBar = () => {
         {/* This burguer menu only appears when screen is smaller than 640px */}
         <BurguerMenu />
         
-        <NextLink href={contacts[2].link} target='_blank'>
+        <NextLink href='https://drive.google.com/file/d/1rJlHNhW1a5cXLks2KB4o8hYPA5Pn5Kj3/view?usp=share_link' target='_blank'>
           <div className='
-            p-2 
+            py-2
+            px-3 
             bg-gray-800 
             hover:ring-1 
             ring-cyan-500 
             rounded-md 
             transition-all
           '>
-            <BiMailSend size={24}/>
+            Resume
           </div>
         </NextLink>
       </div>

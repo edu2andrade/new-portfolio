@@ -1,6 +1,6 @@
 'use-client';
 
-import { BiMailSend } from 'react-icons/bi';
+import { IoMailOutline } from 'react-icons/io5';
 import { FaReact, FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import {
   SiReact,
@@ -75,28 +75,36 @@ export const skills = [
 
 export const projects = [
   {
-    name: 'BG Team',
-    imgUrl: '/bg-team.png',
-    repositoryLink: 'https://www.galvaocoach.com/',
-    // liveLink: '',
-  },
-  {
-    name: 'Personal Portfolio',
-    imgUrl: '/portfolio.png',
-    repositoryLink: 'https://github.com/edu2andrade/new-portfolio',
-    // liveLink: '',
-  },
-  {
-    name: 'Ignite Gym',
-    imgUrl: '/ignite-gym.png',
-    repositoryLink: 'https://github.com/edu2andrade/ignitegym',
-    // liveLink: '',
+    name: 'BG Team Web',
+    imgUrl: '/bgTeamWeb.png',
+    usedTools: ['NextJS', 'Typescript', 'Styled Components', 'Stripe API', 'Supabase'],
+    description: 'Web App to sell Online Coaching services. This web application was built with the latest version of NextJS (13 at the moment) for both, the front and backend, taking advantage of all features of this beautiful framework. Stripe was integrated for managing the payments, and Supabase for storage, Styled Components was my choice for styling this time, and of course, the UI design was made in Figma.',
+    repositoryLink: 'https://github.com/edu2andrade/galvao_coach_next',
+    liveLink: 'https://www.galvaocoach.com/',
   },
   {
     name: 'Coffe Delivery',
-    imgUrl: '/coffee-delivery.png',
+    imgUrl: '/coffeeDelivery.png',
+    usedTools: ['ReactJS', 'Typescript', 'Styled Components', 'Redux Toolkit'],
+    description: 'This project is an application to manage a shopping cart from a fictitious coffee shop delivery. Was built using ReactJS, Typescript and ViteJS. Styled Component was used for styles, and the state management was made with Redux Toolkit which was great for the task.',
     repositoryLink: 'https://github.com/edu2andrade/coffee-delivery',
     liveLink: 'https://coffee-delivery-andradee.vercel.app/',
+  },
+  {
+    name: 'BG Team App (under construction!)',
+    imgUrl: '/bgTeamApp.jpg',
+    usedTools: ['React Native', 'Expo', 'Typescript', 'Native Base', 'Stripe API', 'Supabase'],
+    description: 'App to sell Online Coaching services. This mobile application is in the development phase and I’m using React Native to build it, this app will be deployed in Apple App Store and Google Play Store. Stripe will be integrated for managing payments, and Supabase to manage database users, Native Base was my choice for styling this time, and the UI design was made in Figma too.',
+    repositoryLink: 'https://github.com/edu2andrade/bg-team-app',
+    liveLink: '', // disabled!
+  },
+  {
+    name: 'Ignite Gym',
+    imgUrl: '/igniteGym.png',
+    usedTools: ['React Native', 'Expo', 'Typescript', 'Native Base', 'Context API'],
+    description: 'Gym App develop during Ignite Course by Rocketseat. This app was built using React Native, Native Base for styles, React Hook Forms and Yup for managing user inputs, Context API to manage the states of the app, and Axios to manage the API calls.',
+    repositoryLink: 'https://github.com/edu2andrade/ignitegym',
+    liveLink: '', // disabled!
   },
 ];
 
@@ -113,7 +121,7 @@ export const contacts = [
   },
   {
     type: 'E-mail',
-    icon: <BiMailSend size={iconSizes.small}/>,
+    icon: <IoMailOutline size={iconSizes.small}/>,
     link: 'mailto:edu2andrade@gmail.com',
   },
 ];
