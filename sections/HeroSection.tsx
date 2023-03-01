@@ -29,7 +29,9 @@ export const HeroSection = () => {
           <p className='
            mt-4
            max-w-md
-           text-lg
+           text-lg 
+           text-center 
+           md:text-start
           '>
             I’m a developer specializing in building (and occasionally designing!) exceptional web and mobile experiences.
           </p>
