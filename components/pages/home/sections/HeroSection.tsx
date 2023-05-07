@@ -3,7 +3,7 @@
 
 import Image from 'next/image';
 import NextLink from 'next/link';
-import profilePic from '../../../../public/images/profile.jpg';
+import profilePic from '/public/edu_profile_2023.jpg';
 
 import { styles } from '../../../../styles';
 import { FaArrowCircleDown } from 'react-icons/fa';

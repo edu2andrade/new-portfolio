@@ -6,7 +6,7 @@ import { styles } from '../../../../styles';
 
 import { FaArrowCircleDown } from 'react-icons/fa';
 
-import { contacts, skills } from '../../../../constants';
+import { skills } from '../../../../constants';
 import { SkilssItem } from '../../../SkillsItem';
 
 export const AboutMeSection = () => {
